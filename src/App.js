@@ -5,18 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <p style={{color:"#FFFFFF"}}>I'm working on it. Under Maintenance</p>
+      <img className="App-logo" src={require('./Images/loading.png')}></img>
       </header>
     </div>
   );
