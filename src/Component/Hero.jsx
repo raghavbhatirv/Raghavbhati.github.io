@@ -1,12 +1,13 @@
 import headerimg  from "../Images/headerimg.png"
 const Hero = () => {
+    
     return (
         <div id="home">
             <div className="w-full bg-gradient-to-r from-main-dark from-50% to-dark">
                 <div className="w-10/12 m-auto">
-                    <div className="flex py-32">
-                        <div className="w-6/12">
-                            <h2 className="text-white text-3xl font-medium py-3" id="user-detail-name">Hello👋, I'm Raghav</h2>
+                    <div className="flex py-32 items-center">
+                        <div className="w-6/12" id="user-detail-intro">
+                            <h2 className="text-white text-3xl font-medium py-3" id="user-detail-name">Hello👋, My Self Raghav</h2>
                             <h1 className="text-6xl text-main-light font-semibold py-1.5">I'm a MERN Stack Developer</h1>
                             <h3 className="text-white font-normal text-2xl py-3">I build things for web!</h3>
                             <div className="flex">

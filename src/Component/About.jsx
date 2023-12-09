@@ -1,8 +1,14 @@
 import { Icon } from '@iconify/react';
+import bgabout from "../Images/bgabout.png"
 import TechStackItem from './TechStackItem';
 const About = () => {
+    const mainDivStyle = {
+        background: `url(${bgabout}) no-repeat left center`,
+        backgroundSize: 'cover',
+        minHeight: '100vh', 
+      };
     return (
-        <div className="bg-light w-full">
+        <div className="bg-light w-full" style={mainDivStyle}>
             <div className="w-10/12 m-auto py-10">
                 <div className="flex about section" id='about'>
                     <div className="w-5/12">
