@@ -1,13 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Component/Navbar';
+import Hero from './Component/Hero';
+import About from './Component/About';
+import Project from './Component/Project';
+import Contact from './Component/Contact';
+import Footer from './Component/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <p style={{color:"#FFFFFF"}}>I'm working on it. Under Maintenance</p>
-      <img className="App-logo" src={require('./Images/loading.png')}></img>
-      </header>
+    <div className="font-Poppins">
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Project/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
