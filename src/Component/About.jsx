@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="bg-light w-full">
             <div className="w-10/12 m-auto py-10">
-                <div className="flex">
+                <div className="flex about section" id='about'>
                     <div className="w-5/12">
                         <h2 className="font-semibold text-dark text-2xl py-2">About me</h2>
                         <p className="text-main-dark ">My tech journey kicked off with a passion for content creation on YouTube and then this passion soon extended to blogging. The world of possibilities in web development soon captivated me, especially during my time working on WordPress.</p>
@@ -12,7 +12,7 @@ const About = () => {
                         <p className="text-main-dark"> Keen to explore the intricate world of coding further, I enrolled in the Masai School bootcamp. This decision marked a significant milestone in my ongoing tech voyage.</p>
                     </div>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between" id='skills'>
                     <div>
 
                     </div>

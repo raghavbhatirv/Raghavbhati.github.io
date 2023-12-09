@@ -7,6 +7,9 @@ const ProjectItem = ({image, title, description, github, live})=>{
             <div className="py-3">
                 <h2 className="text-main-dark font-semibold text-2xl project-title">{title}</h2>
                 <p className="text-dark text-sm project-description">{description}</p>
+                <div className="project-tech-stack">
+
+                </div>
             </div>
             <div className="flex gap-2 pt-2">
                 <a className="w-full text-center bg-main-dark rounded-md text-white py-1.5 font-medium cursor-pointer hover:bg-main project-github-link" href={github}>Github</a>

@@ -1,18 +1,21 @@
+import headerimg  from "../Images/headerimg.png"
 const Hero = () => {
     return (
-        <div>
+        <div id="home">
             <div className="w-full bg-gradient-to-r from-main-dark from-50% to-dark">
                 <div className="w-10/12 m-auto">
-                    <div className="flex justify-between py-32">
-                        <div className="w-5/12">
-                            <h2 className="text-white text-3xl font-medium py-3">Hello👋,</h2>
+                    <div className="flex py-32">
+                        <div className="w-6/12">
+                            <h2 className="text-white text-3xl font-medium py-3" id="user-detail-name">Hello👋, I'm Raghav</h2>
                             <h1 className="text-6xl text-main-light font-semibold py-1.5">I'm a MERN Stack Developer</h1>
                             <h3 className="text-white font-normal text-2xl py-3">I build things for web!</h3>
                             <div className="flex">
                             </div>
                         </div>
-                        <div>
-
+                        <div className="w-6/12 text-center">
+                            <div className="w-6/12 m-auto drop-shadow-xl">
+                            <img className="w-full home-img" src={headerimg}></img>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -30,7 +33,7 @@ const Hero = () => {
                                         <p className="text-white text-base font-light ">Hour Of Coding Experience</p>
                                     </div>
                                 </div>
-                                <div  className="flex  gap-4 items-center">
+                                <div className="flex  gap-4 items-center">
                                     <div>
                                         <h1 className="text-5xl text-main-light font-semibold">3+</h1>
                                     </div>
@@ -40,8 +43,18 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
-
+                        <div className="text-right">
+                            <div className="flex items-center gap-3">
+                                <div>
+                                    <h2 className="text-white text-lg font-medium">Connect with me:</h2>
+                                </div>
+                                <div className='flex w-5/12 m-auto justify-center gap-3'>
+                                    <div className="text-xl bg-main-light px-3 py-2 rounded-full transform transition-transform hover:scale-110 hover:cursor-pointer"><a href='https://github.com/Raghavbhati' target="_blank"><i class="fa-brands fa-github"></i></a></div>
+                                    <div className="text-xl bg-main-light px-3 py-2 rounded-full transform transition-transform hover:scale-110 hover:cursor-pointer"><a href='https://www.linkedin.com/in/raghavbhatirv/' target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                                    <div className="text-xl bg-main-light px-3 py-2 rounded-full transform transition-transform hover:scale-110 hover:cursor-pointer"><a href='https://twitter.com/raghavbhatirv/' target="_blank"><i class="fa-brands fa-x-twitter"></i></a></div>
+                                    <div className="text-xl bg-main-light px-3 py-2 rounded-full transform transition-transform hover:scale-110 hover:cursor-pointer"><a href='https://raghavbhati.github.io/' target="_blank"><i class="fa-solid fa-globe"></i></a></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
