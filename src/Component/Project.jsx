@@ -6,7 +6,7 @@ const Project = () => {
             <div className="m-auto w-10/12">
                 <h2 className="text-main-light text-4xl font-semibold py-1.5">My Projects</h2>
                 <p className="text-white font-normal text-xl py-0.5">Project that I've made so far:</p>
-                <div className="py-8 grid grid-cols-4 gap-7 max-sm:grid-cols-1 max-lg:grid-cols-2">
+                <div className="py-8 grid grid-cols-4 gap-5 max-sm:grid-cols-1 max-lg:grid-cols-2">
                     <ProjectItem
                         title={"Wood Fans Clone"}
                         description={"Crafted comfort, sustainable furniture for stylish, relaxing sanctuaries."}
