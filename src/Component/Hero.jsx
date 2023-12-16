@@ -1,21 +1,28 @@
-import headerimg  from "../Images/headerimg.png"
+import headerimg from "../Images/headerimg.png"
+import "./hero.css"
 const Hero = () => {
-    
     return (
-        <div id="home" className="w-full">
+        <div id="home" className="w-full mt-14">
             <div className="bg-gradient-to-r from-main-dark from-50% to-dark">
                 <div className="w-10/12 m-auto">
-                    <div className="flex py-32 items-center flex-wrap max-sm:flex-col-reverse">
+                    <div className="flex py-32 items-center gap-6 max-sm:flex-col-reverse">
                         <div className="w-6/12 max-sm:w-full" id="user-detail-intro">
-                            <h2 className="text-white text-3xl font-medium py-3" id="user-detail-name">Hey👋, My Self Raghav</h2>
+                            <div className="flex bg-green-300 w-4/12 py-0.5 px-2 items-center gap-2 rounded-lg cursor-pointer">
+                                <div className="w-2 h-2 bg-green-600 rounded-full relative"></div>
+                                <div className="animate-ping absolute opacity-75 h-2 w-2 bg-green-600 rounded-full"> </div>
+                                <div>
+                                    <p className="text-green-600 text-sm capitalize">AVAILABLE FOR WORK</p>
+                                </div>
+                            </div>
+                            <h2 className="text-white text-3xl font-medium py-3" id="user-detail-name">
+                                Hey<span aria-label="Waving Hand">👋</span>, My Self Raghav
+                            </h2>
                             <h1 className="text-6xl text-main-light font-semibold py-1.5">I'm a Full Stack Developer</h1>
                             <h3 className="text-white font-normal text-2xl py-3">I build things for web!</h3>
-                            <div className="flex">
-                            </div>
                         </div>
                         <div className="w-6/12 text-center  max-sm:w-full">
-                            <div className="w-6/12 m-auto drop-shadow-xl">
-                            <img className="w-full home-img" src={headerimg}></img>
+                            <div className="w-6/12 m-auto drop-shadow-xl max-sm:w-10/12">
+                                <img className="w-full home-img" src={headerimg}></img>
                             </div>
                         </div>
                     </div>
@@ -23,8 +30,8 @@ const Hero = () => {
             </div>
             <div className="w-full bg-dark">
                 <div className="w-10/12 m-auto">
-                    <div className="flex w-full py-4 justify-between">
-                        <div className="w-6/12 max-sm:w-full">
+                    <div className="flex w-full py-4 justify-between items-center">
+                        <div className="w-6/12 max-lg:w-full">
                             <div className="flex gap-3 w-full">
                                 <div className="flex gap-4 items-center w-6/12">
                                     <div>
@@ -44,7 +51,7 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="text-right max-sm:hidden">
+                        <div className="text-right max-lg:hidden">
                             <div className="flex items-center gap-3">
                                 <div>
                                     <h2 className="text-white text-lg font-medium">Connect with me:</h2>
