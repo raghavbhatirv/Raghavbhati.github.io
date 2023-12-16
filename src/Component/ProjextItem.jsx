@@ -4,7 +4,7 @@ const ProjectItem = ({image, title, description, github, live, tech})=>{
     return(
         <div className="p-3 bg-main-light rounded-lg transform transition-transform hover:scale-105 project-card">
             <div className="w-full">
-                <img className="rounded-lg" src="https://via.placeholder.com/1080x720/eee?text=3:2"></img>
+                <img className="rounded-lg" src={image}></img>
             </div>
             <div className="py-3">
                 <h2 className="text-main-dark font-semibold text-2xl project-title">{title}</h2>

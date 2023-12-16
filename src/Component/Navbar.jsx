@@ -28,7 +28,7 @@ const Navbar = () => {
                         <div className='max-lg:hidden' id="resume-button-1">
                             <p onClick={handleDwonloadResume} className="rounded-md bg-main-light text-dark py-1 px-3 font-semibold text-lg nav-link resume cursor-pointer  hover:border-white border hover:bg-transparent hover:text-white">Resume</p>
                         </div>
-                        <div className='hidden max-lg:block' onClick={mobileMenu}>
+                        <div onClick={mobileMenu} className='hidden max-lg:block'>
                             {mobilemenuactive ? <i className="fa-solid fa-xmark text-white text-2xl"></i> : <i className="fa-solid fa-bars text-white text-2xl"></i>}
                         </div>
                     </div>

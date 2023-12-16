@@ -7,7 +7,7 @@ const Hero = () => {
                 <div className="w-10/12 m-auto">
                     <div className="flex py-32 items-center gap-6 max-md:flex-col-reverse max-md:py-16">
                         <div className="w-6/12 max-md:w-full max-md:pt-4" id="user-detail-intro">
-                            <div className=" bg-main-light inline-block py-0.5 px-2 rounded-lg cursor-pointer my-4">
+                            {/* <div className=" bg-main-light inline-block py-0.5 px-2 rounded-lg cursor-pointer my-4">
                                 <div className="flex items-center gap-2 ">
                                     <div className="w-2 h-2 bg-main-dark rounded-full relative">
                                         <div className="animate-ping absolute  h-2 w-2 bg-main-dark rounded-full"> </div>
@@ -16,7 +16,7 @@ const Hero = () => {
                                         <p className="text-main-dark text-sm capitalize">AVAILABLE FOR WORK</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <h2 className="text-white text-3xl font-medium py-3 max-sm:text-2xl">
                                 Hey<span aria-label="Waving Hand">👋</span>, My Self Raghav
                             </h2>

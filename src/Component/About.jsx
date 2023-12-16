@@ -18,7 +18,8 @@ const About = () => {
                         <br></br>
                         <p className="text-main-dark"> Keen to explore the intricate world of coding further, I enrolled in the Masai School bootcamp. This decision marked a significant milestone in my ongoing tech voyage.</p>
                         <br></br>
-                        <div className='text-left' onClick={handleDwonloadResume} id="resume-button-2">
+                        <p className="text-main-dark" id="user-detail-name">I specialize in creating dynamic web applications using the MERN stack (MongoDB, Express.js, React, Node.js), with expertise in React, Redux, Java, Node, and more. My focus is on crafting efficient and elegant code for seamless front-end and back-end development.</p>
+                        <div className='text-left py-2'  onClick={handleDwonloadResume} id="resume-button-2">
                             <div className='py-1 inline-block'>
                                 <div className='flex gap-2 bg-main-dark rounded-md items-center py-1 px-3 cursor-pointer'>
                                     <i className="fa-solid fa-download text-white text-base"></i>
